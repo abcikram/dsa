@@ -71,3 +71,10 @@ function merge(intervals: number[][]): number[][] {
 
     return result;
 };
+
+
+🧩 Pattern Recognition (Important for Striver)
+
+This problem belongs to:
+
+Intervals + Sorting + Greedy
