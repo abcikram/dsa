@@ -36,3 +36,38 @@ function merge(intervals: number[][]): number[][] {
   }
   return result;
 }
+
+
+
+
+
+/// more optimized way
+function merge(intervals: number[][]): number[][] {
+    if(intervals.length <=1) return intervals;
+
+    //sort of intervals
+    intervals.sort((a, b) => a[0] - b[0]);
+    
+    //initialte the array
+    let result = new Array();
+
+    // initiate the 1st index of intervals
+    let newInterval:number[] = intervals[0];
+
+    // push on result
+    result.push(newInterval);
+//    [1,3] =newInterval[1] 
+//    [2,6] = interval[i][0]
+    for(let i=1;i<intervals.length;i++){
+        if(intervals[i][0] <= newInterval[1]){
+            // overlap 3 > 2
+            newInterval[1] = Math.max(newInterval[1], intervals[i][1])
+        }else {
+            // push new result
+            newInterval = intervals[i];
+            result.push(newInterval);
+        }
+    }
+
+    return result;
+};
