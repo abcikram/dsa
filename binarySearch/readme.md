@@ -1,0 +1,19 @@
+🧠 How to Choose the Right Pattern?
+| Problem Type        | Pattern                 |
+| ------------------- | ----------------------- |
+| Find value          | Classic                 |
+| Insert position     | Lower Bound             |
+| Range queries       | Lower + Upper           |
+| Min / Max answer    | Binary Search on Answer |
+| True / False switch | First True              |
+
+🧠 Golden Rules to Remember
+
+✔ If searching in array → low <= high
+✔ If searching answer space → low < high
+✔ If monotonic → binary search applies
+✔ Minimum valid → return low
+✔ Maximum valid → return high
+
+
+``when minimum and maximum valid values are needed then we use binary search on answer pattern.``
