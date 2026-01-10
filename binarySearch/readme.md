@@ -17,3 +17,14 @@
 
 
 ``when minimum and maximum valid values are needed then we use binary search on answer pattern.``
+
+
+Pattern Reminder (Memorize This)
+// MINIMUM valid answer
+while (low < high) {
+    mid = low + (high - low) / 2;
+
+    if (isValid(mid)) high = mid;
+    else low = mid + 1;
+}
+return low;
