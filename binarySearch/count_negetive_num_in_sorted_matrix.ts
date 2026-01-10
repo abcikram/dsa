@@ -1,6 +1,8 @@
 // https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/
 
+// for optimal we use two pointer approach O(n + m)
 
+// we can use binary search for each row O(n log m)
 
 function countNegatives(grid: number[][]): number {
   let n = grid.length;
