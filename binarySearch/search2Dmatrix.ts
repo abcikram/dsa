@@ -13,8 +13,8 @@ function searchMatrix(matrix: number[][], target: number): boolean {
 
   while (low <= high) {
     mid = Math.floor(low + (high - low) / 2);
-    let row = Math.floor(mid / n);
-    let col = mid%n;  // we do not use Math.floor here because col always will be less than n
+    let row = Math.floor(mid / m);
+    let col = mid % m;  // we do not use Math.floor here because col always will be less than m
 
     if (matrix[row][col]! === target) {
       return true;
