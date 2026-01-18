@@ -28,6 +28,10 @@ function searchMatrix(matrix: number[][], target: number): boolean {
   return false;
 }
 
+// Time Complexity: O(log(m × n))
+
+// Space Complexity: O(1)
+
 console.log(
   searchMatrix(
     [
