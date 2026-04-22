@@ -118,3 +118,7 @@ class Solution2 {
 
 const permutation2 = new Solution2();
 console.log(permutation2.permute([1, 2, 3]));
+
+
+TC: - O(n! * n)  // n! for generating all permutations and n for copying the permutation to the result array
+SC: - O(n! * n)  // n! for storing all permutations and n for each permutation in the result array
