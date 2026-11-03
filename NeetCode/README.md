@@ -7,7 +7,7 @@ This folder organizes problem notes by the **NeetCode 150 pattern roadmap**. Eac
 | # | NeetCode category | Notes currently available |
 |---:|---|---|
 | 01 | Arrays & Hashing | — |
-| 02 | Two Pointers | [11 — Container With Most Water](02-Two-Pointers/11-Container-With-Most-Water.md), [15 — 3Sum](02-Two-Pointers/15-3Sum.md), [42 — Trapping Rain Water](02-Two-Pointers/42-Trapping-Rain-Water.md) |
+| 02 | Two Pointers | [11 — Container With Most Water](02-Two-Pointers/11-Container-With-Most-Water.md), [15 — 3Sum](02-Two-Pointers/15-3Sum.md), [26 — Remove Duplicates from Sorted Array](02-Two-Pointers/26-Remove-Duplicates-from-Sorted-Array.md), [42 — Trapping Rain Water](02-Two-Pointers/42-Trapping-Rain-Water.md) |
 | 03 | Sliding Window | [3 — Longest Substring (Set vs Map)](03-Sliding-Window/3-Longest-Substring-Set-vs-Map.md), [121 — Best Time to Buy and Sell Stock](03-Sliding-Window/121-Best-Time-to-Buy-and-Sell-Stock.md), [424 — Longest Repeating Character Replacement](03-Sliding-Window/424-Longest-Repeating-Character-Replacement.md) |
 | 04 | Stack | — |
 | 05 | Binary Search | — |
