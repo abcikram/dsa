@@ -14,15 +14,15 @@ This folder organizes problem notes by the **NeetCode 150 pattern roadmap**. Eac
 | 06 | Linked List | — |
 | 07 | Trees | — |
 | 08 | Tries | — |
-| 09 | Backtracking | — |
-| 10 | Heap / Priority Queue | — |
+| 09 | Heap / Priority Queue | — |
+| 10 | Backtracking | — |
 | 11 | Graphs | — |
 | 12 | Advanced Graphs | — |
 | 13 | 1-D Dynamic Programming | — |
 | 14 | 2-D Dynamic Programming | — |
 | 15 | Greedy | — |
 | 16 | Intervals | — |
-| 17 | Math & Geometry | [48 — Rotate Image](16-Math-and-Geometry/48-Rotate-Image.md) |
+| 17 | Math & Geometry | [48 — Rotate Image](17-Math-and-Geometry/48-Rotate-Image.md) |
 | 18 | Bit Manipulation | — |
 
 ## Current pattern coverage
