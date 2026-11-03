@@ -7,7 +7,7 @@ This folder organizes problem notes by the **NeetCode 150 pattern roadmap**. Eac
 | # | NeetCode category | Notes currently available |
 |---:|---|---|
 | 01 | Arrays & Hashing | — |
-| 02 | Two Pointers | [11 — Container With Most Water](02-Two-Pointers/11-Container-With-Most-Water.md), [15 — 3Sum](02-Two-Pointers/15-3Sum.md), [26 — Remove Duplicates from Sorted Array](02-Two-Pointers/26-Remove-Duplicates-from-Sorted-Array.md), [42 — Trapping Rain Water](02-Two-Pointers/42-Trapping-Rain-Water.md) |
+| 02 | Two Pointers | [11 — Container With Most Water](02-Two-Pointers/11-Container-With-Most-Water.md), [15 — 3Sum](02-Two-Pointers/15-3Sum.md), [26 — Remove Duplicates from Sorted Array](02-Two-Pointers/26-Remove-Duplicates-from-Sorted-Array.md), [42 — Trapping Rain Water](02-Two-Pointers/42-Trapping-Rain-Water.md), [88 — Merge Sorted Array](02-Two-Pointers/88-Merge-Sorted-Array.md), [1768 — Merge Strings Alternately](02-Two-Pointers/1768-Merge-Strings-Alternately.md) |
 | 03 | Sliding Window | [3 — Longest Substring (Set vs Map)](03-Sliding-Window/3-Longest-Substring-Set-vs-Map.md), [121 — Best Time to Buy and Sell Stock](03-Sliding-Window/121-Best-Time-to-Buy-and-Sell-Stock.md), [424 — Longest Repeating Character Replacement](03-Sliding-Window/424-Longest-Repeating-Character-Replacement.md) |
 | 04 | Stack | — |
 | 05 | Binary Search | — |
@@ -27,7 +27,7 @@ This folder organizes problem notes by the **NeetCode 150 pattern roadmap**. Eac
 
 ## Current pattern coverage
 
-- **Two Pointers:** 3Sum, Container With Most Water, Trapping Rain Water.
+- **Two Pointers:** 3Sum, Container With Most Water, Trapping Rain Water, Remove Duplicates from Sorted Array, Merge Strings Alternately.
 - **Sliding Window:** Longest Substring Without Repeating Characters (Set + HashMap), Best Time to Buy and Sell Stock (running minimum + greedy one-pass), Longest Repeating Character Replacement (frequency count).
 - **Math & Geometry / Matrix:** Rotate Image (transpose + reverse each row).
 
