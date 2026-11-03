@@ -28,7 +28,7 @@ This folder organizes problem notes by the **NeetCode 150 pattern roadmap**. Eac
 ## Current pattern coverage
 
 - **Two Pointers:** 3Sum, Container With Most Water, Trapping Rain Water.
-- **Sliding Window:** Longest Substring Without Repeating Characters (Set + HashMap), Best Time to Buy and Sell Stock (running minimum + greedy one-pass).
+- **Sliding Window:** Longest Substring Without Repeating Characters (Set + HashMap), Best Time to Buy and Sell Stock (running minimum + greedy one-pass), Longest Repeating Character Replacement (frequency count).
 - **Math & Geometry / Matrix:** Rotate Image (transpose + reverse each row).
 
 ## Conventions
