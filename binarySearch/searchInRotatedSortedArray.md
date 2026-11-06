@@ -215,3 +215,43 @@ Before coding, ask:
 6. Does the interval still include the last untested candidate?
 
 **Core pattern:** Identify the sorted half → check target range → discard the impossible half.
+
+
+---
+
+## 11. Reviewing the revised implementation: one missing boundary check
+
+A common almost-correct version checks only that the right half is sorted and that the target is greater than the middle:
+
+```ts
+if (nums[mid] <= nums[right] && target > nums[mid]) {
+  left = mid + 1;
+} else {
+  right = mid - 1;
+}
+```
+
+This is incomplete. The target must be **inside the entire sorted right-half range**, not merely greater than `nums[mid]`.
+
+Use:
+
+```ts
+if (target > nums[mid] && target <= nums[right]) {
+  left = mid + 1;
+} else {
+  right = mid - 1;
+}
+```
+
+Why check `target <= nums[right]`? A target larger than the right boundary cannot exist in that sorted half, so we must search the left half instead.
+
+Also note that `nums[mid] <= nums[right]` is a way to recognize the sorted right half once the left half has been ruled out. In the implementation below, the outer `else` already establishes that the right half is sorted, so repeating that check inside is unnecessary.
+
+### Final decision logic
+
+| Sorted half | Target range check | Next search |
+|---|---|---|
+| Left | `target >= nums[left] && target < nums[mid]` | `right = mid - 1` |
+| Right | `target > nums[mid] && target <= nums[right]` | `left = mid + 1` |
+
+**Remember:** Identifying a sorted half is only step one. The target must also fall within that half's boundaries.
