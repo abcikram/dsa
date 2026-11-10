@@ -1,12 +1,12 @@
 # NeetCode Roadmap — DSA Notes
 
-This folder organizes problem notes by the **NeetCode 150 pattern roadmap**. Each problem is stored inside its primary pattern/category folder. Where a problem combines techniques, its note mentions the secondary technique in the Pattern section.
+This folder organizes problem notes by the **NeetCode 150 pattern roadmap**. Each problem is stored inside its primary pattern/category folder. Where a problem combines techniques, its note mentions the secondary technique in the Pattern section instead of duplicating the same file across folders.
 
 ## Pattern folders
 
 | # | NeetCode category | Notes currently available |
 |---:|---|---|
-| 01 | Arrays & Hashing | — |
+| 01 | Arrays & Hashing | [Flatten Array — Recursion](01-Arrays-and-Hashing/Flatten-Array-Recursion.md) |
 | 02 | Two Pointers | [11 — Container With Most Water](02-Two-Pointers/11-Container-With-Most-Water.md), [15 — 3Sum](02-Two-Pointers/15-3Sum.md), [26 — Remove Duplicates from Sorted Array](02-Two-Pointers/26-Remove-Duplicates-from-Sorted-Array.md), [42 — Trapping Rain Water](02-Two-Pointers/42-Trapping-Rain-Water.md), [88 — Merge Sorted Array](02-Two-Pointers/88-Merge-Sorted-Array.md), [1768 — Merge Strings Alternately](02-Two-Pointers/1768-Merge-Strings-Alternately.md) |
 | 03 | Sliding Window | [3 — Longest Substring (Set vs Map)](03-Sliding-Window/3-Longest-Substring-Set-vs-Map.md), [121 — Best Time to Buy and Sell Stock](03-Sliding-Window/121-Best-Time-to-Buy-and-Sell-Stock.md), [424 — Longest Repeating Character Replacement](03-Sliding-Window/424-Longest-Repeating-Character-Replacement.md), [567 — Permutation in String (HashMap)](03-Sliding-Window/567-Permutation-in-String-HashMap.md) |
 | 04 | Stack | [20 — Valid Parentheses](04-Stack/20-Valid-Parentheses.md), [150 — Evaluate Reverse Polish Notation](04-Stack/150-Evaluate-Reverse-Polish-Notation.md), [155 — Min Stack (English)](04-Stack/155-Min-Stack.md), [155 — Min Stack (বাংলা)](04-Stack/155-Min-Stack-Bangla.md) |
@@ -27,6 +27,7 @@ This folder organizes problem notes by the **NeetCode 150 pattern roadmap**. Eac
 
 ## Current pattern coverage
 
+- **Arrays & Hashing:** Flatten Nested Array (recursive DFS; also includes built-in `flat(Infinity)` and an iterative stack alternative).
 - **Two Pointers:** 3Sum, Container With Most Water, Trapping Rain Water, Remove Duplicates from Sorted Array, Merge Strings Alternately.
 - **Stack:** Valid Parentheses (matching brackets with LIFO), Evaluate Reverse Polish Notation (operand stack + expression evaluation), Min Stack (store each value with the minimum so far).
 - **Binary Search:** Sqrt(x) (binary search on answer / monotonic predicate; also includes brute force and Newton's method).
@@ -35,7 +36,7 @@ This folder organizes problem notes by the **NeetCode 150 pattern roadmap**. Eac
 
 ## Conventions
 
-- File names start with the LeetCode problem number for easy sorting.
+- File names start with the LeetCode problem number when applicable; foundational technique notes use a descriptive name.
 - Keep the complete explanation, dry run, TypeScript solution, complexity, common mistakes, and revision checklist in each problem note.
 - Put a problem in its main NeetCode pattern folder; describe secondary patterns in the note instead of duplicating the same file across folders.
 
