@@ -9,7 +9,7 @@ This folder organizes problem notes by the **NeetCode 150 pattern roadmap**. Eac
 | 01 | Arrays & Hashing | — |
 | 02 | Two Pointers | [11 — Container With Most Water](02-Two-Pointers/11-Container-With-Most-Water.md), [15 — 3Sum](02-Two-Pointers/15-3Sum.md), [26 — Remove Duplicates from Sorted Array](02-Two-Pointers/26-Remove-Duplicates-from-Sorted-Array.md), [42 — Trapping Rain Water](02-Two-Pointers/42-Trapping-Rain-Water.md), [88 — Merge Sorted Array](02-Two-Pointers/88-Merge-Sorted-Array.md), [1768 — Merge Strings Alternately](02-Two-Pointers/1768-Merge-Strings-Alternately.md) |
 | 03 | Sliding Window | [3 — Longest Substring (Set vs Map)](03-Sliding-Window/3-Longest-Substring-Set-vs-Map.md), [121 — Best Time to Buy and Sell Stock](03-Sliding-Window/121-Best-Time-to-Buy-and-Sell-Stock.md), [424 — Longest Repeating Character Replacement](03-Sliding-Window/424-Longest-Repeating-Character-Replacement.md), [567 — Permutation in String (HashMap)](03-Sliding-Window/567-Permutation-in-String-HashMap.md) |
-| 04 | Stack | [155 — Min Stack](04-Stack/155-Min-Stack.md) |
+| 04 | Stack | [155 — Min Stack (English)](04-Stack/155-Min-Stack.md), [155 — Min Stack (বাংলা)](04-Stack/155-Min-Stack-Bangla.md) |
 | 05 | Binary Search | — |
 | 06 | Linked List | — |
 | 07 | Trees | — |
