@@ -11,7 +11,7 @@ This folder organizes problem notes by the **NeetCode 150 pattern roadmap**. Eac
 | 03 | Sliding Window | [209 — Minimum Size Subarray Sum](03-Sliding-Window/209-Minimum-Size-Subarray-Sum.md), [3 — Longest Substring (Set vs Map)](03-Sliding-Window/3-Longest-Substring-Set-vs-Map.md), [121 — Best Time to Buy and Sell Stock](03-Sliding-Window/121-Best-Time-to-Buy-and-Sell-Stock.md), [424 — Longest Repeating Character Replacement](03-Sliding-Window/424-Longest-Repeating-Character-Replacement.md), [567 — Permutation in String (HashMap)](03-Sliding-Window/567-Permutation-in-String-HashMap.md) |
 | 04 | Stack | [20 — Valid Parentheses](04-Stack/20-Valid-Parentheses.md), [150 — Evaluate Reverse Polish Notation](04-Stack/150-Evaluate-Reverse-Polish-Notation.md), [155 — Min Stack (English)](04-Stack/155-Min-Stack.md), [155 — Min Stack (বাংলা)](04-Stack/155-Min-Stack-Bangla.md) |
 | 05 | Binary Search | [69 — Sqrt(x)](05-Binary-Search/69-Sqrt-x.md) |
-| 06 | Linked List | [21 — Merge Two Sorted Lists](06-Linked-List/21-Merge-Two-Sorted-Lists.md) |
+| 06 | Linked List | [21 — Merge Two Sorted Lists](06-Linked-List/21-Merge-Two-Sorted-Lists.md), [141 — Linked List Cycle](06-Linked-List/141-Linked-List-Cycle.md) |
 | 07 | Trees | — |
 | 08 | Tries | — |
 | 09 | Heap / Priority Queue | — |
@@ -28,7 +28,7 @@ This folder organizes problem notes by the **NeetCode 150 pattern roadmap**. Eac
 ## Current pattern coverage
 
 - **Arrays & Hashing:** Flatten Nested Array (recursive DFS).
-- **Linked List:** Merge Two Sorted Lists (recursive merge; choose the smaller head, recursively merge the remainder, then connect on return).
+- **Linked List:** Merge Two Sorted Lists (recursive merge); Linked List Cycle (Floyd's fast and slow pointers).
 - **Two Pointers:** 3Sum, Container With Most Water, Trapping Rain Water, Remove Duplicates from Sorted Array, Merge Strings Alternately.
 - **Stack:** Valid Parentheses (matching brackets with LIFO), Evaluate Reverse Polish Notation (operand stack + expression evaluation), Min Stack (store each value with the minimum so far).
 - **Binary Search:** Sqrt(x) (binary search on answer / monotonic predicate; also includes brute force and Newton's method).
